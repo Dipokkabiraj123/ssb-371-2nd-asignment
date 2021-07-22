@@ -1,0 +1,91 @@
+body{
+ margin: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+header{
+			
+			
+}
+.annoument{
+	background-color:#009688 ;
+	padding: 15px 30px;
+}
+.annoument p{
+	color:#fff;
+	margin: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	text-align: center;
+		}
+.menu{
+	border-bottom: #009688 solid 1px
+}
+ul{
+	margin: 0;
+	text-align: center;
+	padding: 20px;
+		}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	font-size: 25px;
+	color:#009688;
+	text-decoration: none;
+	padding: 8px 20px;
+	display: block;
+	border-radius:10px;
+	border: dashed #009688 1px;
+	transition-duration: 0.4s;
+			
+
+}
+ul li a:hover{
+	color:#009688;
+	border-left: #053a7d00 dashed 2px;
+    border-right: #053a7d00 dashed 2px;
+    background-color:#009688;
+    color:#fff ;
+}
+
+		
+.banner-section{
+	padding: 50px 0;
+    background-color: #00968808;
+}
+.banner{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner img{
+	max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 60px 0 #0096884f;
+     width: 100%;
+
+    transition: all 0.3s linear;
+}
+.banner img:hover{
+     box-shadow: 0 0 0 0 #0096884f;
+}
+.content-section{
+    padding:50px;
+}
+.content{
+    width:50%;
+    margin: auto;
+
+}
+    .content p{
+     font-size:22px;
+
+}
+.content h1{
+	font-size: 40px;margin: 0;
+	color: #009688;
+}
+.content p{
+	font-size: 22px;
+}
